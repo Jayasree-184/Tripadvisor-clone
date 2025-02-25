@@ -15,7 +15,6 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 15px;
-
     position: sticky;
     top: 0;
     background-color: white;
@@ -131,7 +130,7 @@ body {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        gap: 60px;
+        gap: 80px;
     }
 }
 
@@ -328,11 +327,12 @@ body {
         padding: 10px;
         border: solid white 1px;
         border-radius: 20px;
-        width: 90%;
+        width: 88%;
         gap: 10px;
         align-items: center;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         margin: 20px;
+        margin-right: 40px;
 
     }
 
@@ -345,7 +345,7 @@ body {
 
     .searchmobile input {
         border: none;
-        width: 100%;
+        width: 95%;
         font-size: 16px;
         border-color: transparent;
     }
@@ -2104,6 +2104,7 @@ body {
         background-color: #F2F2F2;
         padding-bottom: 50px;
         padding-top: 20px;
+        padding-right: 20px;
     }
 
     .about {
