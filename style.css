@@ -129,7 +129,7 @@ body {
 
     .navbar__s4 {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
         gap: 100px;
     }
@@ -2150,6 +2150,7 @@ body {
         margin-left: 20px;
         cursor: pointer;
         padding-top: 20px;
+        display: flex;
     }
 
     .termsmobile__country select {
@@ -2160,7 +2161,14 @@ body {
         font-size: 18px;
         font-weight: bold;
         cursor: pointer;
-        width: 362px;
+    }
+
+    .dollar{
+        width: 50%;
+    }
+
+    .country{
+        width: 50%;
     }
 
     .social {
